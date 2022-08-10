@@ -11,9 +11,9 @@
 <body>
     <header>
         <!------------------------------ nav start ------------------------->
-          <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="container navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><h1>Pro Edu</h1></a>
+              <a class="navbar-brand" href="#"><h1 class="text-info">Pro Edu</h1></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -39,7 +39,7 @@
                   </li>
                 </ul>
                 <form class="d-flex">
-                  <button class="btn btn-outline-success" type="submit">Register</button>
+                  <button class="btn btn-outline-info" type="submit">Register</button>
                 </form>
               </div>
             </div>
@@ -54,7 +54,7 @@
                   <h1>Get Started Digital 
                     <br>Learning</h1>
                   <p>Some representative placeholder content for the first slide.</p>
-                  <button type="button" class="btn btn-info px-4">Get Start</button>
+                  <a target="_blank" href="https://icons.getbootstrap.com/icons/star-half/"><button type="button" class="btn btn-info px-4">Get Start</button></a>
                 </div>
               </div>
               <div class="carousel-item">
@@ -62,7 +62,7 @@
                 <div class="carousel-caption">
                   <h1>Great Shariful islam</h1>
                   <p>Some representative placeholder content for the second slide.</p>
-                  <button type="button" class="btn btn-info px-4">Get Start</button>
+                  <a target="_blank" href="https://icons.getbootstrap.com/icons/star-half/"><button type="button" class="btn btn-info px-4">Get Start</button></a>
                 </div>
               </div>
               <div class="carousel-item">
@@ -70,7 +70,7 @@
                 <div class="carousel-caption ">
                   <h1>Great Shariful islam</h1>
                   <p>Some representative placeholder content for the third slide.</p>
-                  <button type="button" class="btn btn-info px-4">Get Start</button>
+                  <a target="_blank" href="https://icons.getbootstrap.com/icons/star-half/"><button type="button" class="btn btn-info px-4">Get Start</button></a>
                 </div>
               </div>
             </div>
@@ -206,7 +206,7 @@
         <div class="card mb-3">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="images/working.png" class="img-fluid  rounded-start" alt="...">
+              <img src="images/working.png" style="height:100%;" class="img-fluid  rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -278,8 +278,8 @@
           <div class="col col-sm-12 col-md-6 col-lg-3">
             <div class="card">
               <img src="images/student/student-1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h4 class="card-title">Awlad Hossain</h4>
+              <div class="card-body text-sm-center text-lg-start text-md-start">
+                <h4 class="card-title ">Awlad Hossain</h4>
                 <p class="card-text">UIUX Designer</p>
               </div>
             </div>
@@ -287,27 +287,27 @@
           <div class="col col-sm-12 col-md-6 col-lg-3">
             <div class="card">
               <img src="images/student/student-2.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h4 class="card-title">Awlad Hossain</h4>
-                <p class="card-text">UIUX Designer</p>
+              <div class="card-body text-sm-center text-lg-start text-md-start">
+                <h4 class="card-title">Jannatul Islam</h4>
+                <p class="card-text">Motion Design</p>
               </div>
             </div>
           </div>
           <div class="col col-sm-12 col-md-6 col-lg-3">
             <div class="card">
               <img src="images/student/student-3.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h4 class="card-title">Awlad Hossain</h4>
-                <p class="card-text">UIUX Designer</p>
+              <div class="card-body text-sm-center text-lg-start text-md-start">
+                <h4 class="card-title">Imran Hossasin</h4>
+                <p class="card-text">Graphics Designer</p>
               </div>
             </div>
           </div>
           <div class="col col-sm-12 col-md-6 col-lg-3">
             <div class="card">
               <img src="images/student/student-4.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h4 class="card-title">Awlad Hossain</h4>
-                <p class="card-text">UIUX Designer</p>
+              <div class="card-body text-sm-center text-lg-start text-md-start">
+                <h4 class="card-title">Nishita Akter</h4>
+                <p class="card-text">Web Designer</p>
               </div>
             </div>
           </div>
@@ -331,7 +331,15 @@
             <div class="carousel-item active container">
               <div class="row gy-4 container">
                 <div class="col-lg-6 container ">
-                  <img src="images/comma.png" alt="" srcset="">
+                  <div class="d-flex justify-content-between">
+                    <img src="images/comma.png" alt="" srcset="">
+                    <div><i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-half text-warning"></i>
+                    </div>
+                  </div>
                   <p>There are many variations of passages of Lorem Ipsum available, but 
                     the majority have suffered alteration in some form, by injected 
                     humour, or randomised words which don't look even slightly 
@@ -345,7 +353,15 @@
                     </div>
                 </div>
                 <div class="col-lg container" >
-                  <img src="images/comma.png" alt="" srcset="">
+                  <div class="d-flex justify-content-between">
+                    <img src="images/comma.png" alt="" srcset="">
+                    <div><i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-half text-warning"></i>
+                    </div>
+                  </div>
                   <p>There are many variations of passages of Lorem Ipsum available, but 
                     the majority have suffered alteration in some form, by injected 
                     humour, or randomised words which don't look even slightly 
@@ -353,7 +369,7 @@
                     <div class="d-flex">
                       <img class="w-10" style="height:70px" src="images/student/student-6.png" alt="" srcset="">
                       <div class="pt-2">
-                        <p><b>Shariful</b><br>
+                        <p><b>Shanta Akter</b><br>
                           Ui Designer</p>
                       </div>
                     </div>
@@ -363,7 +379,15 @@
             <div class="carousel-item container">
               <div class="row gy-4 container">
                 <div class="col-lg-6 container">
-                  <img src="images/comma.png" alt="" srcset="">
+                  <div class="d-flex justify-content-between">
+                    <img src="images/comma.png" alt="" srcset="">
+                    <div><i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-half text-warning"></i>
+                    </div>
+                  </div>
                   <p>There are many variations of passages of Lorem Ipsum available, but 
                     the majority have suffered alteration in some form, by injected 
                     humour, or randomised words which don't look even slightly 
@@ -371,13 +395,21 @@
                     <div class="d-flex">
                       <img class="w-10" style="height:70px" src="images/student/student-6.png" alt="" srcset="">
                       <div class="pt-2">
-                        <p><b>Shariful</b><br>
+                        <p><b>Shanta Akter</b><br>
                           Ui Designer</p>
                       </div>
                     </div>
                 </div>
                 <div class="col-lg-6 container">
-                  <img src="images/comma.png" alt="" srcset="">
+                  <div class="d-flex justify-content-between">
+                    <img src="images/comma.png" alt="" srcset="">
+                    <div><i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-half text-warning"></i>
+                    </div>
+                  </div>
                   <p>There are many variations of passages of Lorem Ipsum available, but 
                     the majority have suffered alteration in some form, by injected 
                     humour, or randomised words which don't look even slightly 
@@ -395,7 +427,15 @@
             <div class="carousel-item container">
               <div class="row gy-4 container">
                 <div class="col-lg-6  container">
-                  <img src="images/comma.png" alt="" srcset="">
+                  <div class="d-flex justify-content-between">
+                    <img src="images/comma.png" alt="" srcset="">
+                    <div><i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-half text-warning"></i>
+                    </div>
+                  </div>
                   <p>There are many variations of passages of Lorem Ipsum available, but 
                     the majority have suffered alteration in some form, by injected 
                     humour, or randomised words which don't look even slightly 
@@ -409,7 +449,15 @@
                     </div>
                 </div>
                 <div class="col-lg-6 container">
-                  <img src="images/comma.png" alt="" srcset="">
+                  <div class="d-flex justify-content-between">
+                    <img src="images/comma.png" alt="" srcset="">
+                    <div><i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-half text-warning"></i>
+                    </div>
+                  </div>
                   <p>There are many variations of passages of Lorem Ipsum available, but 
                     the majority have suffered alteration in some form, by injected 
                     humour, or randomised words which don't look even slightly 
@@ -500,7 +548,7 @@
         </div>
       </section>
       <!---------------------Frequently Asked Questions End----------------------->
-      <section class=" d-lg-block d-sm-none d-md-none">
+      <section class="d-lg-block d-sm-none d-md-none">
         <div class="mt-5">
           <h1 class="text-center">Trusted by over 800+ companies</h1>
         </div>
